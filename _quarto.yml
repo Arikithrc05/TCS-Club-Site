@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Theory CS Club, ISI Kolkata"
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "Talks"
+        href: talks.qmd
+  sidebar: false
+  search: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

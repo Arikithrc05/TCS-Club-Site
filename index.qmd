@@ -1,0 +1,24 @@
+---
+title: "Theory CS Club, ISI Kolkata"
+format: html
+---
+
+<div class="hero-card">
+
+## Deep ideas. Rigorous discussion. Friendly community.
+
+We organise reading groups, seminars, problem sessions, and informal discussions on algorithms, complexity theory, logic, and related fields — open to everyone from beginners to advanced students.
+
+</div>
+
+<br>
+
+<div class="hero-card">
+
+### Quick Links
+
+- [Lecture Notes & PDFs](resources.qmd)
+- [YouTube Talks](talks.qmd)
+- [Email us](mailto:theory-cs@isi.ac.in)
+
+</div>
