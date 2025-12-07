@@ -18,5 +18,6 @@ website:
 format:
   html:
     theme: cosmo
+    mainfont: "Inter"
     css: styles.css
     toc: false

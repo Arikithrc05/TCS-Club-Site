@@ -7,6 +7,13 @@
     "text": "We organise reading groups, seminars, problem sessions, and informal discussions on algorithms, complexity theory, logic, and related fields — open to everyone from beginners to advanced students."
   },
   {
+    "objectID": "index.html#deep-ideas.-rigorous-discussion.-friendly-community.",
+    "href": "index.html#deep-ideas.-rigorous-discussion.-friendly-community.",
+    "title": "Theory CS Club, ISI Kolkata",
+    "section": "",
+    "text": "We organise reading groups, seminars, problem sessions, and informal discussions on algorithms, complexity theory, logic, and related fields — open to everyone from beginners to advanced students."
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources/Notes",
@@ -14,10 +21,17 @@
     "text": "Placeholder PDF Link\nAnother Link"
   },
   {
-    "objectID": "index.html#deep-ideas.-rigorous-discussion.-friendly-community.",
-    "href": "index.html#deep-ideas.-rigorous-discussion.-friendly-community.",
+    "objectID": "index.html#deep-idea.-rigorous-discussion.-friendly-community.",
+    "href": "index.html#deep-idea.-rigorous-discussion.-friendly-community.",
     "title": "Theory CS Club, ISI Kolkata",
     "section": "",
     "text": "We organise reading groups, seminars, problem sessions, and informal discussions on algorithms, complexity theory, logic, and related fields — open to everyone from beginners to advanced students."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks & Videos",
+    "section": "",
+    "text": "Below is a selection of talks organised by the Theory CS Club. Each card contains a short abstract and links to materials.\n\n\n\n\nIntroduction to Computational Complexity and Turing Machines\n\n\nSpeaker: Rudrayan Kundu, MStat 1st Year\n\nIn this talk we give a brief introduction to the models of computation and Turing Machines and how that does not matter. We define the classes P and NP based on our definition of deterministic turing machines.\n\n\n&lt;a href=“href=”materials/TM_Notes.pdf”&gt;Slides (PDF)\n\n\nLecture notes\n\n\nRecording (YouTube)\n\n\nRelated reading list\n\n\n\n\n\nNP-Completeness Crash Session\n\n\nSpeaker: NAME · Level: Intermediate\n\n\nClassic NP-complete problems such as SAT, 3-SAT, Vertex Cover, Clique, and Independent Set, with an emphasis on how to structure reductions between them.\n\n\n\nSession notes\n\n\nProblem sheet\n\n\nRecording (YouTube)\n\n\nRelated reference\n\n\n\n\n\nAutomata & Regular Languages\n\n\nSpeaker: NAME · Level: Introductory\n\n\nDeterministic and nondeterministic finite automata, regular expressions, closure properties, and examples connecting automata with contest-style problems.\n\n\n\nDFAs & NFAs notes\n\n\nExercise sheet\n\n\nRecording (YouTube)\n\n\nReference text / chapter"
   }
 ]

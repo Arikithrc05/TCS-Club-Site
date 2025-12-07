@@ -1,0 +1,55 @@
+---
+title: "Talks & Videos"
+---
+
+
+
+Below is a selection of talks organised by the Theory CS Club. Each card contains a short abstract and links to materials.
+
+<div class="talk-grid">
+
+<div class="talk-card">
+  <h3>Introduction to Computational Complexity and Turing Machines</h3>
+  <p class="talk-meta">Speaker: Rudrayan Kundu, MStat 1st Year
+  <p class="talk-abstract">
+    In this talk we give a brief introduction to the models of computation and Turing Machines and how that does not matter.
+    We define the classes P and NP based on our definition of deterministic turing machines. 
+  <ul class="talk-links">
+    <li><a href="href="materials/TM_Notes.pdf">Slides (PDF)</a></li>
+    <li><a href="https://example.com/complexity-notes.pdf">Lecture notes</a></li>
+    <li><a href="https://youtube.com/YOUR_VIDEO_1">Recording (YouTube)</a></li>
+    <li><a href="https://example.com/complexity-reading-list.pdf">Related reading list</a></li>
+  </ul>
+</div>
+
+<div class="talk-card">
+  <h3>NP-Completeness Crash Session</h3>
+  <p class="talk-meta">Speaker: NAME · Level: Intermediate</p>
+  <p class="talk-abstract">
+    Classic NP-complete problems such as SAT, 3-SAT, Vertex Cover, Clique, and Independent Set,
+    with an emphasis on how to structure reductions between them.
+  </p>
+  <ul class="talk-links">
+    <li><a href="https://example.com/np-complete-notes.pdf">Session notes</a></li>
+    <li><a href="https://example.com/np-complete-problems.pdf">Problem sheet</a></li>
+    <li><a href="https://youtube.com/YOUR_VIDEO_2">Recording (YouTube)</a></li>
+    <li><a href="https://example.com/garey-johnson-summary.pdf">Related reference</a></li>
+  </ul>
+</div>
+
+<div class="talk-card">
+  <h3>Automata & Regular Languages</h3>
+  <p class="talk-meta">Speaker: NAME · Level: Introductory</p>
+  <p class="talk-abstract">
+    Deterministic and nondeterministic finite automata, regular expressions, closure properties,
+    and examples connecting automata with contest-style problems.
+  </p>
+  <ul class="talk-links">
+    <li><a href="https://example.com/dfa-nfa-notes.pdf">DFAs & NFAs notes</a></li>
+    <li><a href="https://example.com/regular-exercises.pdf">Exercise sheet</a></li>
+    <li><a href="https://youtube.com/YOUR_VIDEO_3">Recording (YouTube)</a></li>
+    <li><a href="https://example.com/hopcroft-automata-ref.pdf">Reference text / chapter</a></li>
+  </ul>
+</div>
+
+</div>

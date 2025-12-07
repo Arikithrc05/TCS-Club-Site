@@ -1,8 +1,0 @@
----
-title: "Resources/Notes"
----
-
-
-
-- [Placeholder PDF Link](https://example.com)
-- [Another Link](https://example.com)
