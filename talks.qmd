@@ -1,54 +1,103 @@
----
-title: "Talks & Videos"
----
-
-
-
-Below is a selection of talks organised by the Theory CS Club. Each card contains a short abstract and links to materials.
+## Upcoming Talks
 
 <div class="talk-grid">
 
 <div class="talk-card">
-  <h3>Introduction to Computational Complexity and Turing Machines</h3>
-  <p class="talk-meta">Speaker: Rudrayan Kundu, MStat 1st Year
+  <h3>Latent Surface Attribution</h3>
+  <p class="talk-meta">Speaker: Akanksha Das, BStat 3rd
+  <p class="talk-abstract">
+    This talk introduces Latent Surface Attribution, a novel attribution framework inspired by the Nambu–Goto action from string theory. Instead of tracing feature importance along a single path, it constructs a local 2D surface in latent space around the input of interest and measures how the model’s gradient flows through this surface. The decoder-induced metric captures how latent directions expand or distort in input space, enabling geometrically meaningful attribution. This approach avoids reliance on arbitrary baselines, reduces pointwise noise by aggregating model sensitivity over a continuous neighborhood, and satisfies most standard axioms of attribution methods. Experimental evaluations on vision models demonstrate improved stability and competitive performance over manifold-based path attribution techniques.
+  </p>
+  <ul class="talk-links">
+    <li><strong>When:</strong> 12th December 2025,</li>
+    <li><strong>Where:</strong> Google Meet link</li>
+    <li><strong>Slides:</strong> Will be uploaded after the session.</li>
+  </ul>
+</div>
+
+<div class="talk-card">
+  <h3>Complexity of Poset Games</h3>
+  <p class="talk-meta">Speaker: Arikith Roy Chowdhury, Bstat 3rd</p>
+  <p class="talk-abstract">
+    Poset games are impartial combinatorial games played on partially ordered sets, where players alternately remove an element along with everything greater than it in the order. Despite their simple rules, these games hide deep computational complexity—the fundamental question of determining the winning player has been shown to be PSPACE-complete. This talk provides an introduction to the structure and theory of poset games, illustrating classical results such as memoryless optimal strategies in specific subclasses, and reductions connecting poset games to other well-studied complexity problems.
+  </p>
+  <ul class="talk-links">
+    <li><strong>Date:</strong> 20th December 2025</li>
+    <li><strong>Time:</strong> 4:00-7:30 PM
+    <li><strong>Where:</strong> To Be Announced</li>
+
+  </ul>
+</div>
+<div class="talk-card">
+  <h3>Intro to Model Theory and Logic</h3>
+  <p class="talk-meta">Speaker: Himadri Mandal, BStat 3rd</p>
+  <p class="talk-abstract">
+    TBA
+  </p>
+  <ul class="talk-links">
+    <li><strong>When:</strong> TBA</li>
+    <li><strong>Where:</strong> TBA</li>
+    <li><strong>Materials:</strong> TBA</li>
+  </ul>
+</div>
+</div>
+
+
+
+
+
+## Past Talks
+
+
+
+<div class="talk-grid">
+
+<div class="talk-card">
+  <h3>Introduction to Complexity Theory and Turing Machines</h3>
+  <p class="talk-meta">Speaker: Rudrayan Kundu, MStat 1st
   <p class="talk-abstract">
     In this talk we give a brief introduction to the models of computation and Turing Machines and how that does not matter.
     We define the classes P and NP based on our definition of deterministic turing machines. 
+  </p>
   <ul class="talk-links">
-    <li><a href="href="materials/TM_Notes.pdf">Slides (PDF)</a></li>
-    <li><a href="https://example.com/complexity-notes.pdf">Lecture notes</a></li>
-    <li><a href="https://youtube.com/YOUR_VIDEO_1">Recording (YouTube)</a></li>
-    <li><a href="https://example.com/complexity-reading-list.pdf">Related reading list</a></li>
+    <li><a href="materials/TM/TM%20Slides.pdf">Slides (PDF)</a></li>
+    <li><a href="materials/TM/TM%20Notes.pdf">Lecture notes</a></li>
+    <li><a href="https://youtu.be/O3BagXu1mtQ?si=49TPP39cluUHqzCK
+">Recording (YouTube)</a></li>
+    <li><a href="https://theory.cs.princeton.edu/complexity/book.pdf">Reading Material</a></li>
   </ul>
 </div>
 
 <div class="talk-card">
-  <h3>NP-Completeness Crash Session</h3>
-  <p class="talk-meta">Speaker: NAME · Level: Intermediate</p>
+  <h3>On Real Zeros of Dense and Sparse Random Polynomials</h3>
+  <p class="talk-meta">Speaker: Arikith Roy Chowdhury, BStat 3rd
   <p class="talk-abstract">
-    Classic NP-complete problems such as SAT, 3-SAT, Vertex Cover, Clique, and Independent Set,
-    with an emphasis on how to structure reductions between them.
-  </p>
+    The expected number of real zeros of random polynomials has been a subject of great interest due to its connections with algebraic as well as geometric complexity theory. In this talk we will be exploring the Kac's integral formula for dense random polynomials and see it's derivation by Edelman-Kostlan. Thereafter we will see Bürgisser's upper bound for k-sparse polynomials and a very recent improvement of the bound, making it tight. We will also try to get glimpses into The Real Tau Conjecture and its implications along with recent developments and possible research directions.
+
   <ul class="talk-links">
-    <li><a href="https://example.com/np-complete-notes.pdf">Session notes</a></li>
-    <li><a href="https://example.com/np-complete-problems.pdf">Problem sheet</a></li>
-    <li><a href="https://youtube.com/YOUR_VIDEO_2">Recording (YouTube)</a></li>
-    <li><a href="https://example.com/garey-johnson-summary.pdf">Related reference</a></li>
+    <li><a href="materials/Ranpoly/notes.pdf">Session notes</a></li>
   </ul>
+<details class="talk-readings">
+  <summary><strong>Relevant Papers</strong></summary>
+  <ul>
+    <li><a href="materials/Ranpoly/papers/Edelman-Kostlan%20paper.pdf">Edelman-Kostlan Paper</a></li>
+    <li><a href="materials/Ranpoly/papers/KacIntegral%20'43.pdf">Kac Integral Paper</a></li>
+    <li><a href="materials/Ranpoly/papers/randomrootssparsepoly20.pdf">Zeros of Sparse Random Polynomial</a></li>
+    <li><a href="materials/Ranpoly/papers/Real-Tauconjtrueonaverage.pdf">Real Tau true on average</a></li>
+  </ul>
+</details>
+
 </div>
 
 <div class="talk-card">
-  <h3>Automata & Regular Languages</h3>
-  <p class="talk-meta">Speaker: NAME · Level: Introductory</p>
+  <h3>The Real Tau Conjecture is True in Average</h3>
+  <p class="talk-meta">Speaker: Arikith Roy Chowdhury, BStat 3rd
   <p class="talk-abstract">
-    Deterministic and nondeterministic finite automata, regular expressions, closure properties,
-    and examples connecting automata with contest-style problems.
+     The Real Tau Conjecture is one of those big open problems which, if proven true, have really significant implications in complexity theory and computer science. Although the problem remains opens in general, very recently Burgisser and Briquel were able to show that the conjecture holds true in the average case for random polynomials given by ΣΠΣΠ depth-4 arithmetic circuits. In this talk we will see a sketch of their proof using Rice's formula and Rice inequality from the theory of random fields along with techniques from multivariate calculus and differential topology. Thereafter we plan to have a philosophical discussion regarding the interpretation of this result and further research directions.
   </p>
   <ul class="talk-links">
-    <li><a href="https://example.com/dfa-nfa-notes.pdf">DFAs & NFAs notes</a></li>
-    <li><a href="https://example.com/regular-exercises.pdf">Exercise sheet</a></li>
-    <li><a href="https://youtube.com/YOUR_VIDEO_3">Recording (YouTube)</a></li>
-    <li><a href="https://example.com/hopcroft-automata-ref.pdf">Reference text / chapter</a></li>
+    <li><a href="materials/Avgtau/Avg_Real_Tau%20(1).pdf">Slides</a></li>
+    <li><a href="Real-Tauconjtrueonaverage.pdf">Paper</a></li>
   </ul>
 </div>
 

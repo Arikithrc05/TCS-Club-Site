@@ -1,24 +1,84 @@
----
-title: "Theory CS Club, ISI Kolkata"
-format: html
----
 
-<div class="hero-card">
+<div class="hero-grid">
 
-## Deep idea. Rigorous discussion. Friendly community.
+<div class="hero-main hero-card">
 
-We organise reading groups, seminars, problem sessions, and informal discussions on algorithms, complexity theory, logic, and related fields — open to everyone from beginners to advanced students.
+<div class="pill">Theory CS Club · ISI Kolkata</div>
+
+# Sharper intuitions, stronger foundations, shared curiosity
+
+<p class="lead-text">
+The Theory CS Club is a student-led initiative at ISI Kolkata for everyone interested in
+algorithms, complexity theory, automata, combinatorics, logic, and related areas. We read papers,
+solve problems together, and try to understand the mathematical foundations of computation.
+</p>
+
+### Our motto
+
+> To build a small but serious community where people can learn, question, and work on ideas in theoretical computer science together.
 
 </div>
 
-<br>
+<div class="hero-side hero-card">
+  <h3>Stay Connected</h3>
+  <p class="lead-text" style="margin-bottom: 10px;">
+    Reach out if you want to join the club, suggest a talk, or share resources.
+  </p>
 
-<div class="hero-card">
+  <ul class="compact-list">
+    <li>
+      <strong>Email:</strong>
+      <a href="mailto:theorycsclub.isi@example.com">
+        theorycsclub.isi@example.com
+      </a>
+    </li>
+    <li>
+      <strong>YouTube:</strong>
+      <a href="https://youtube.com/@your-channel-placeholder">
+        Our YouTube channel
+      </a>
+    </li>
+    <li>
+      <strong>WhatsApp group:</strong>
+      <a href="https://chat.whatsapp.com/your-group-link">
+        Join the WhatsApp group
+      </a>
+    </li>
+  </ul>
 
-### Quick Links
+  <p class="side-note">
+    Replace these links with the actual club email, YouTube channel, and WhatsApp invite.
+    New members are always welcome.
+  </p>
+</div>
 
-- [Lecture Notes & PDFs](resources.qmd)
-- [YouTube Talks](talks.qmd)
-- [Email us](mailto:theory-cs@isi.ac.in)
+</div>
+
+<div class="home-grid">
+
+<div class="home-card">
+  <h3>What we do</h3>
+  <p>
+    Reading groups, blackboard talks, problem sessions, and informal discussions on core topics
+    in theoretical CS and related mathematics.
+  </p>
+</div>
+
+<div class="home-card">
+  <h3>Talks</h3>
+  <p>
+    We regularly host short talks by students on topics they find interesting. Slides, notes,
+    and recordings are archived on the Talks page.
+  </p>
+  <a class="card-link" href="talks.qmd">See talks →</a>
+</div>
+
+<div class="home-card">
+  <h3>How to join</h3>
+  <p>
+    Just come to a session, or send us an email / message on the WhatsApp group. No background
+    is “too little” as long as you’re curious.
+  </p>
+</div>
 
 </div>

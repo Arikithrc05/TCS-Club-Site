@@ -1,0 +1,103 @@
+
+# Resources
+
+Below is a short list of references we find useful for learning theoretical computer science and related mathematics.  
+They are roughly grouped into **Books** and **Websites / Online Notes**.
+
+---
+
+## Books
+
+
+
+<div class="resource-grid">
+
+<div class="resource-card">
+  <h3>Sipser – Introduction to the Theory of Computation</h3>
+  <p>
+    Standard introduction to automata, computability, and complexity. Very readable and widely used in theory courses.
+  </p>
+  <p>
+    <a href="https://example.com/sipser">More details →</a>
+  </p>
+</div>
+
+<div class="resource-card">
+  <h3>Arora & Barak – Computational Complexity</h3>
+  <p>
+    A modern, more advanced treatment of complexity theory, suitable for reading groups once basic concepts are in place.
+  </p>
+  <p>
+    <a href="https://example.com/arora-barak">More details →</a>
+  </p>
+</div>
+
+<div class="resource-card">
+  <h3>Hopcroft–Motwani–Ullman – Automata Theory</h3>
+  <p>
+    Classic text on automata, formal languages, and computability with many examples and exercises.
+  </p>
+  <p>
+    <a href="https://example.com/hopcroft">More details →</a>
+  </p>
+</div>
+
+<div class="resource-card">
+  <h3>Additional References</h3>
+  <p>
+    You can list other books here (e.g., on combinatorics, logic, or probability) that are useful for theory CS.
+  </p>
+  <p>
+    <a href="https://example.com/more-books">Full book list →</a>
+  </p>
+</div>
+
+</div>
+
+---
+
+## Websites & Online Notes
+
+<div class="resource-grid">
+
+<div class="resource-card">
+  <h3>Course / Lecture Notes</h3>
+  <p>
+    Links to good lecture notes on complexity, algorithms, automata, and related topics.
+  </p>
+  <p>
+    <a href="https://example.com/lecture-notes">Curated notes →</a>
+  </p>
+</div>
+
+<div class="resource-card">
+  <h3>Problem Collections</h3>
+  <p>
+    Collections of theory-flavoured problems (contest style, homework style, or research warmups).
+  </p>
+  <p>
+    <a href="https://example.com/problems">Problem sets →</a>
+  </p>
+</div>
+
+<div class="resource-card">
+  <h3>Blogs / Expository Articles</h3>
+  <p>
+    Expository posts and blog articles that give intuition behind standard results in complexity and algorithms.
+  </p>
+  <p>
+    <a href="https://example.com/blogs">Blog list →</a>
+  </p>
+</div>
+
+<div class="resource-card">
+  <h3>Club Materials</h3>
+  <p>
+    Notes, slides, and handouts prepared for Theory CS Club talks and reading groups.
+  </p>
+  <p>
+    <a href="materials/">Club PDFs & slides →</a>
+  </p>
+</div>
+
+</div>

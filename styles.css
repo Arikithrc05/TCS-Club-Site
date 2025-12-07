@@ -1,3 +1,26 @@
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: #5eead4 #0f1724 !important;
+}
+
+*::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0f1724 !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #5eead4 !important;
+  border-radius: 10px !important;
+}
+
+*::-webkit-scrollbar-button {
+  display: none !important;
+  height: 0 !important;
+  width: 0 !important;
+}
 :root{
   --bg: #0f1724;
   --card: rgba(15,23,42,0.95);
@@ -15,9 +38,9 @@ body{
 }
 
 main {
-  max-width: 1400px;
-  margin: 40px auto 56px auto;
-  padding: 0 24px;
+  max-width: 100%;
+  margin: 40px 0 56px 0;
+  padding: 0 20px;
 }
 
 /* Navbar tweaks for Quarto's default navbar */
@@ -143,7 +166,7 @@ main {
 
 .home-grid{
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 4 cards per row */
   gap: 18px;
 }
 
@@ -152,6 +175,14 @@ main {
   border-radius: 14px;
   padding: 18px 16px;
   border: 1px solid rgba(51,65,85,0.9);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.home-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(94,234,212,0.2), 0 0 0 1px var(--accent);
+  border-color: var(--accent);
 }
 .home-card h3{
   margin-top: 2px;
@@ -162,6 +193,8 @@ main {
   margin: 0 0 8px 0;
   color: var(--muted);
   font-size: 0.9rem;
+  max-height: 100px;  /* ADD THIS */
+  overflow-y: auto;
 }
 .card-link{
   font-size: 0.88rem;
@@ -182,9 +215,10 @@ main {
 .resource-grid,
 .talk-grid{
   display: grid;
-  grid-template-columns: repeat(2,minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 4 cards per row for full width */
+  gap: 20px;
+  width: 100%;
+  margin-top: 12px;
 }
 
 /* RESOURCES CARDS */
@@ -194,6 +228,14 @@ main {
   border-radius: 14px;
   padding: 16px 14px;
   border: 1px solid rgba(51,65,85,0.85);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.resource-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(94,234,212,0.2), 0 0 0 1px var(--accent);
+  border-color: var(--accent);
 }
 .resource-card h3{
   margin-top: 0;
@@ -204,6 +246,8 @@ main {
   margin: 0;
   font-size: 0.88rem;
   color: var(--muted);
+  max-height: 120px;  /* ADD THIS */
+  overflow-y: auto; 
 }
 .resource-card a{
   color: var(--accent);
@@ -215,22 +259,42 @@ main {
 }
 
 /* TALKS CARDS */
-
+.talk-card {
+  font-family: 'Nerd Font', monospace;
+}
 .talk-card{
   background: rgba(15,23,42,0.9);
   border-radius: 14px;
   padding: 16px 14px;
   border: 1px solid rgba(51,65,85,0.85);
   box-shadow: 0 12px 30px rgba(15,23,42,0.85);
-}
-.talk-card{
   border-left: 4px solid var(--accent);
+  transition: all 0.1s ease;
+  cursor: pointer;
+  min-height: 350px;           /* ADD THIS */
+  display: flex;               /* ADD THIS */
+  flex-direction: column;
 }
 
+.talk-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(94,234,212,0.25), 0 0 0 1px var(--accent);
+  border-left-width: 6px;
+}
+.talk-card p {
+  font-size: 0.9rem;
+  color: var(--muted);  /* or #e6eef8 if you want bright white */
+  margin-bottom: 10px;
+  max-height: 250px;  /* ADD THIS */
+  overflow-y: auto;
+}
 .talk-card h3{
   margin-top: 0;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
   font-size: 1.05rem;
+  min-height: 60px;  /* ADD THIS - forces same height for all titles */
+  display: flex;     /* ADD THIS */
+  align-items: start; /* ADD THIS */
 }
 
 .talk-meta{
@@ -243,6 +307,40 @@ main {
   font-size: 0.9rem;
   color: var(--muted);
   margin-bottom: 10px;
+  overflow-y: auto;
+  flex-grow: 1;
+  
+  /* Force custom scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #5eead4 transparent;
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+.talk-abstract::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.talk-abstract::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.talk-abstract::-webkit-scrollbar-thumb {
+  background: #5eead4;
+  border-radius: 10px;
+}
+
+.talk-abstract::-webkit-scrollbar-thumb:hover {
+  background: #4dd4bd;
+}
+
+/* Remove arrows */
+.talk-abstract::-webkit-scrollbar-button {
+  display: none;
+}
+
+.talk-abstract::-webkit-scrollbar-corner {
+  background: transparent;
 }
 
 .talk-links{
@@ -251,6 +349,7 @@ main {
   margin: 0;
   border-top: 1px solid rgba(51,65,85,0.6);
   padding-top: 8px;
+  margin-top: auto;
 }
 
 .talk-links li{
@@ -258,9 +357,10 @@ main {
 }
 
 .talk-links a{
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   color: var(--accent);
   text-decoration: none;
+  font-weight: 600;
 }
 
 .talk-links a:hover{
@@ -314,4 +414,72 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Georgia", "Times New Roman", serif;
   font-weight: 600;
+}
+/* Collapsible reading resources styling */
+.talk-readings {
+  margin-top: 10px;
+}
+
+.talk-readings summary {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--accent);        /* SAME blue as other links */
+  list-style: none;
+  font-family: "Georgia", system-ui, -apple-system, sans-serif;
+}
+
+.talk-readings summary:hover {
+  text-decoration: underline;
+  color: var(--accent);        /* preserve blue on hover */
+}
+
+/* Remove default arrow marker styling */
+.talk-readings summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Add a little arrow icon using CSS */
+.talk-readings summary::after {
+  content: " ▼";
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.talk-readings[open] summary::after {
+  content: " ▲";               /* flips arrow when opened */
+}
+/* Make main content wider */
+.page-columns .content {
+  max-width: 1600px !important;  /* Try 1500px or 1700px if you want */
+  padding-left: 24px;
+  padding-right: 24px;
+}
+/* Make article pages (like Talks) actually use the full width */
+.page-layout-article,
+.page-layout-article .content,
+.page-columns,
+.page-columns .content,
+.container-fluid {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+/* Remove any centering from containers */
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+article,
+#quarto-content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+/* Remove scrollbars on homepage cards */
+.home-card p {
+  max-height: none !important;
+  overflow-y: visible !important;
 }
