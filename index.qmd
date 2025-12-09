@@ -28,8 +28,8 @@ solve problems together, and try to understand the mathematical foundations of c
   <ul class="compact-list">
     <li>
       <strong>Email:</strong>
-      <a href="mailto:theorycsclub.isi@example.com">
-        theorycsclub.isi@example.com
+      <a href="mailto:tcsclubisi@gmail.com">
+        tcsclubisi@gmail.com
       </a>
     </li>
     <li>
@@ -40,16 +40,13 @@ solve problems together, and try to understand the mathematical foundations of c
     </li>
     <li>
       <strong>WhatsApp group:</strong>
-      <a href="https://chat.whatsapp.com/your-group-link">
+      <a href="https://chat.whatsapp.com/KSPvPDIryYmFy6j2OQDz7I">
         Join the WhatsApp group
       </a>
     </li>
   </ul>
 
-  <p class="side-note">
-    Replace these links with the actual club email, YouTube channel, and WhatsApp invite.
-    New members are always welcome.
-  </p>
+ 
 </div>
 
 </div>
