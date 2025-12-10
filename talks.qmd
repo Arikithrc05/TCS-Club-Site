@@ -97,7 +97,7 @@
   </p>
   <ul class="talk-links">
     <li><a href="materials/Avgtau/Avg_Real_Tau%20(1).pdf">Slides</a></li>
-    <li><a href="Real-Tauconjtrueonaverage.pdf">Paper</a></li>
+    <li><a href="materials/Avgtau/Real-Tauconjtrueonaverage.pdf">Paper</a></li>
   </ul>
 </div>
 
